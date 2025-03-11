@@ -4,7 +4,7 @@ export default function header() {
   return (
     <div>
       <nav>
-        <ul>
+        <ol>
             <li>
                 Home
             </li>
@@ -17,7 +17,7 @@ export default function header() {
             </li><li>
                 Contact
             </li>
-        </ul>
+        </ol>
       </nav>
     </div>
   )
