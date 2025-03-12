@@ -8,7 +8,7 @@ export default function event() {
     <div>
       <h1>React event</h1>
       
-      <button onClick={find}>click here</button>
+      <button onClick={find()}>click here</button>
     </div>
   )
 }
