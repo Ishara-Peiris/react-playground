@@ -23,7 +23,7 @@ function App() {
  <Part2 name="dilrukshi">ishara</Part2>
  <Part2 name="peiris"><h1>name</h1></Part2>
  <Part2 name="Bamina"><button>find me</button></Part2>
- <Event/>
+ <Event age="23"/>
 
  
 
