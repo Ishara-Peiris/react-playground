@@ -8,17 +8,21 @@ export default function Event() {
     }
     const [count,setCount] = useState(0);
 
+
     function addnum(){
       console.log("button clicked");
     }
-    
+    function addnum2(){
+      setCount(count+4);
+    }
+
     
   return (
 
     <div>
       <h1>React event</h1>
       <h1>COUNT:{count}</h1>
-      <button onClick={()=>setCount(count+2)}>number</button>
+      <button onClick={addnum2}>number</button>
       
       <button onClick={find}>click here</button>
     
