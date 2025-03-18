@@ -8,6 +8,9 @@ export default function Event() {
     }
     const [count,setCount] = useState(0);
 
+    function addnum(){
+      console.log("button clicked");
+    }
     
     
   return (
@@ -20,7 +23,7 @@ export default function Event() {
       <button onClick={find}>click here</button>
     
    <h1>Add new student</h1>
-   <button className='user-btn'>ADD</button>
+   <button onClick={addnum} className='user-btn'>ADD</button>
   </div>
   )
 }
